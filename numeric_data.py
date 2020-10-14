@@ -20,7 +20,7 @@ def average(testTimes):
 testTimes = [3.55, 8.32, 15.12, 22.123, 14.64, 19.2, 49.3]
 if average(testTimes) < 30:
 	for user in testTimes:
-		user += 1
+		user += 2
 		print(round(user, 2))
 else:
 	print("That's all")	
